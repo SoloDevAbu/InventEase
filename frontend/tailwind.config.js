@@ -10,7 +10,8 @@ export default {
         color: {
           btn: '#744c64',
           btnHover: '#79586C',
-          form: '#C8CDBA'
+          form: '#C8CDBA',
+          backgroundColor: '#FFFDD0'
         }
       },
       fontFamily: {
