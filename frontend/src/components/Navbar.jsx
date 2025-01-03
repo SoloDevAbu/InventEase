@@ -4,12 +4,12 @@ import logo from '../assets/supply.png'
 const Navbar = () => {
   const navigate = useNavigate();
   return (
-    <nav className='flex bg-slate-300 px-16 py-2 fixed w-full justify-between items-center font-sans font-semibold'>
+    <nav className='flex bg-slate-300 px-8 sm:px-10 md:px-16 py-2 fixed w-full justify-between items-center font-sans font-semibold'>
       <div className='size-8'>
         <img src={logo} alt="InventEase" />
       </div>
-
-      <div className='flex justify-center flex-1'>
+      
+      <div className=' hidden sm:flex justify-center flex-1'>
         <ul className='flex items-center gap-6'>
           <li className="inline-block">
             <a href="/" className="hover:text-gray-500">Inventory</a>

@@ -2,8 +2,9 @@ import React from 'react'
 
 const LoginForm = () => {
   return (
-    <div className='pt-20'>
-      <div className="container mx-auto px-10 bg-color-form rounded-3xl">
+    <div className='pt-10'>
+      <h1 className="text-4xl pb-5">InventEase</h1>
+      <div className="container mx-auto md:px-5 bg-color-form rounded-3xl">
         <h1 className='text-center font-sans text-2xl'>Login</h1>
         <form className='space-y-3 p-6'>
           <div>
